@@ -1,0 +1,267 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #DEE3F3;
+}
+header {
+	width: 100%;
+	background: #4c8F96;
+	height: 170px;
+	position: relative;
+
+}
+section {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 300px;
+	float: left;
+	margin-top: 20px;
+}
+.box {
+	width: 264px;
+	height: 115px;
+	background-color: #1A1E33;
+	color: #ffffff;
+	text-align: center;
+}
+.box h1 {
+	font-size: 66px;
+	padding-top: 22px;
+	text-transform: uppercase;
+}
+.navbar {
+	float: right;
+}
+.navbar ul {
+	padding-top: 103px;
+	text-transform: uppercase;
+}
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+.navbar ul li a {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #1B2130;
+	color: #ffffff;
+	padding: 5px 13px;
+	font-size: 17px;
+	border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+	color:#cdcdcd;
+}
+#active {
+	background-color:#335F64;
+}
+.banner {
+	width: 960px;
+	margin:0 auto;
+	border:2px solid #5FB3BD;
+	height:356px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.banner-img {
+	float: left;
+	padding-right: 60px;
+}
+.banner-text {
+	color: #1b2130;
+	font-family: 'ChangaOne';
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 60px;
+}
+
+#content {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+#content ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+#content ul li {
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding:0;
+	width: 220px;
+}
+#content ul li a img {
+	background: url(../images/frame.png);
+	background-repeat: no-repeat;
+	display: block;
+	margin:0;
+	padding: 5px 5px 29px;
+}
+
+#content ul li p {
+	color: #454545;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	margin-bottom: 40px;
+}
+
+#content ul li h3 {
+	color: #000;
+	display: block;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0 5px;
+	text-transform: capitalize;
+}
+.about {
+	width: 960px;
+	margin-top: 20px;
+	
+}
+.about .featured-left {
+	background-color: #ffffff;
+	border: 5px solid #5FB3BD;
+	border-radius: 4px;
+	height: 560px;
+	width: 420px;
+	padding: 0 15px 45px 15px;
+	float: left;
+	font-family: Arial;
+}
+.featured-box {
+	width: 151px;
+	height:29px;
+	padding: 10px;
+	background: #20263F;
+	color: #ffffff;
+	margin-top: -15px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.featured-box h2 {
+	font-size: 23px;
+	margin-top: 2px;
+	letter-spacing: 1px;
+}
+
+.featured-left img {
+	display: block;
+	float: left;
+	margin: 10px 30px 25px 0;
+	padding: 0;
+}
+.featured-left h3 {
+	color: #354057;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0 0;
+	text-transform: none;
+}
+.featured-left p {
+	clear: both;
+	color: #464646;
+	font-size: 12px;
+	margin: 0 0 24px;
+	line-height: 24px;
+	padding: 0;
+}
+
+.featured-right {
+	width: 450px;
+	float: right;
+	font-family: Arial;
+}
+
+.featured-right .article {
+	background-color: #519194;
+	border: 5px solid #5FB3BD;
+	border-radius: 4px;
+	height: 183px;
+	padding: 0 15px 45px 15px;
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.featured-right .newsletter {
+	background-color: #519194;
+	border: 5px solid #5FB3BD;
+	border-radius: 4px;
+	height: 168px;
+	padding: 0 15px 45px 15px;
+	color: #ffffff;
+	margin-top: 20px;
+}
+.newsletter img {
+	display: block;
+	left: 0;
+	margin:0;
+	padding: 0;
+	position: relative;
+	top: -13px;
+	z-index: 5;
+	float: left;
+}
+.newsletter p {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	line-height: 30px;
+	margin: 0;
+	padding-top: 20px;
+}
+#footer {
+	background: #4c8F96;
+	border-top: 1px solid #9bd9e0;
+	margin: 0;
+	padding: 0;
+}
+#footer div {
+	margin: 0 auto;
+	padding: 30px 0 28px;
+	overflow: hidden;
+	text-align: center;
+	width: 960px;
+}
+#footer p {
+	color: #ededed;
+	display: inline-block;
+	font-size: 15px;
+	letter-spacing: 0.05em;
+	padding: 27px 0 0 0;
+	text-align: center;
+}
+#footer .connect {
+	background-color: #387a82;
+	height: 18px;
+	margin: 0 20px 0 0;
+	padding: 24px 20px;
+	overflow: hidden;
+	width: 144px;
+	float: right;
+}
+#footer .connect a {
+	color:#1B6068;
+	padding-right: 5px;
+}
+#footer .connect a:hover {
+	color: #0d444a;
+}
+a {
+	color: #595959;
+}
